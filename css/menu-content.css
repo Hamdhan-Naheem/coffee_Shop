@@ -1,0 +1,42 @@
+.menu .box-container{
+    display: grid ;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.menu .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border: var(--border);
+}
+
+.menu .box-container .box img{
+    height: 7rem;
+}
+
+
+.menu .box-container .box h3{
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+.menu .box-container .box .price{
+    color: #fff;
+    padding: .5rem;
+    font-size: 2.5rem;
+}
+
+.menu .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+.menu .box-container .box:hover{
+    background: #fff;
+}
+
+.menu .box-container .box:hover > *{
+    color: var(--black);
+}

@@ -1,0 +1,22 @@
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../images/pexels-photo-3869870.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: brown;
+}
+
+.home .content p{
+    font-weight: lighter;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    padding: .5rem 0;
+    color: #fff;
+}

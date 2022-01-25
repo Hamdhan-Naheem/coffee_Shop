@@ -1,0 +1,23 @@
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.header .navbar a:hover{
+    color: var(--main-color);
+    border-bottom: 0.5rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+
+.header .icons div{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover{
+    color: var(--main-color);
+}
